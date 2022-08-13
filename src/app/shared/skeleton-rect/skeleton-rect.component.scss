@@ -1,9 +1,0 @@
-@import '../../../assets/style/main.scss';
-
-:host {
-    display: block;
-    width: var(--skeleton-rect-width);
-    height: var(--skeleton-rect-height);
-    margin-top: $margin-medium;
-    background: rgb(239, 241, 246) no-repeat;
-}
