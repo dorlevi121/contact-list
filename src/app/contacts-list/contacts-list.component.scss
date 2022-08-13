@@ -1,0 +1,27 @@
+@import '../../assets/style/main.scss';
+
+.contacts-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+    @include respond(mobile) {
+        width: 90%;
+    }
+
+    & .contact {
+        width: 21%;
+
+        @include respond(mobile) {
+            width: 47%;
+        }
+    }
+
+    .not-found {
+        @include page-title;
+        margin-top: $margin-xl;
+    }
+}
