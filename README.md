@@ -1,4 +1,4 @@
-# Angular Chat App
+# Angular Contact List App
 ## About the project
 I wrote a contact list app.
 In this project, I implemented a custom skeleton loader.
